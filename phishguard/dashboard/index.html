@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Overview — PhishGuard</title>
+<link rel="icon" type="image/png" href="assets/logo-icon.png" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="brand">
+      <img src="assets/logo-icon.png" alt="PhishGuard" class="brand-badge brand-badge-img" />
+      <div>
+        <div class="brand-title">PhishGuard</div>
+        <div class="brand-sub">AI-Assisted Phishing Triage · Problem #19</div>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <span id="live-clock"></span>
+    </div>
+  </header>
+
+  <div class="app-body">
+    <nav class="sidebar">
+      <div class="sidebar-section-label">Console</div>
+      <a href="/dashboard" class="nav-link active"><span class="nav-icon">&#9635;</span> Overview</a>
+      <a href="/test" class="nav-link"><span class="nav-icon">&#9993;</span> Test an Email</a>
+      <a href="/analytics" class="nav-link"><span class="nav-icon">&#128202;</span> Analytics</a>
+      <a href="/settings" class="nav-link"><span class="nav-icon">&#9881;</span> Settings</a>
+      <a href="/activity" class="nav-link"><span class="nav-icon">&#128203;</span> Activity Log</a>
+
+      <div class="sidebar-foot">
+        <div class="sidebar-analyst">Signed in as<br/><b id="sidebar-analyst-name">analyst</b></div>
+        <button id="logout-btn" class="logout-btn logout-btn-block">Log out</button>
+      </div>
+    </nav>
+
+    <main class="content-area">
+      <div class="page">
+
+        <section class="hero">
+          <div class="hero-text">
+            <h1>Reported emails, triaged for you.</h1>
+            <p>Every reported email is scored, explained, and ranked automatically —
+               so your security team checks the scariest ones first, and never
+               blindly trusts a guess.</p>
+          </div>
+          <div class="hero-metrics" id="model-metrics">
+            <!-- filled by JS -->
+          </div>
+        </section>
+
+        <section class="stats-row" id="stats-row">
+          <!-- filled by JS -->
+        </section>
+
+        <section class="board">
+          <div class="board-header">
+            <h2>Reported Inbox Queue</h2>
+            <div class="board-header-actions">
+              <button class="simulate-btn" id="simulate-btn">+ Simulate Incoming Email</button>
+              <div class="filters" id="filters">
+                <button class="filter-btn active" data-tier="all">All</button>
+                <button class="filter-btn" data-tier="high">High Risk</button>
+                <button class="filter-btn" data-tier="medium">Needs Review</button>
+                <button class="filter-btn" data-tier="low">Low Risk</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="queue" id="queue">
+            <!-- filled by JS -->
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <div class="modal-backdrop" id="modal-backdrop">
+    <div class="modal" id="modal">
+      <!-- filled by JS -->
+    </div>
+  </div>
+
+  <script src="auth.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sign in — PhishGuard</title>
+<link rel="icon" type="image/png" href="assets/logo-icon.png" />
+<link rel="stylesheet" href="login.css" />
+</head>
+<body>
+
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
+  <main class="login-wrap">
+    <div class="login-card">
+
+      <div class="brand-row">
+        <img src="assets/logo-icon.png" alt="PhishGuard" class="brand-badge brand-badge-img" />
+        <div>
+          <div class="brand-name">PhishGuard</div>
+          <div class="brand-sub">Security Analyst Console</div>
+        </div>
+      </div>
+
+      <h1>Sign in to continue</h1>
+      <p class="sub">Access the reported-email triage queue.</p>
+
+      <form id="login-form">
+        <label for="username">Analyst ID</label>
+        <input type="text" id="username" placeholder="e.g. analyst01" autocomplete="username" />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="••••••••" autocomplete="current-password" />
+
+        <div class="error-msg" id="error-msg">Incorrect analyst ID or password. Try the demo credentials below.</div>
+
+        <button type="submit" class="signin-btn">Sign In</button>
+      </form>
+
+      <div class="demo-box">
+        <div class="demo-title">Demo credentials</div>
+        <div class="demo-creds">analyst01 &nbsp;/&nbsp; phishguard123</div>
+      </div>
+
+      <a href="/" class="back-link">&larr; Back to home</a>
+    </div>
+  </main>
+
+  <script src="login.js"></script>
+</body>
+</html>

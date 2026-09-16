@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Settings — PhishGuard</title>
+<link rel="icon" type="image/png" href="assets/logo-icon.png" />
+<link rel="stylesheet" href="style.css" />
+<style>
+  .panel { background:white; border:1px solid var(--border); border-radius:14px; padding:20px 22px; margin-bottom:20px; }
+  .panel h3 { margin:0 0 4px; font-size:15px; color:var(--navy); }
+  .panel .panel-sub { font-size:12px; color:var(--grey); margin-bottom:18px; }
+
+  .slider-row { margin-bottom: 22px; }
+  .slider-row:last-child { margin-bottom: 0; }
+  .slider-label-row { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:8px; }
+  .slider-label-row label { font-size:13px; font-weight:700; color:var(--navy); }
+  .slider-value { font-size:13px; font-weight:800; }
+  .slider-value.high { color: var(--coral); }
+  .slider-value.medium { color: var(--amber); }
+  input[type="range"] { width:100%; accent-color: var(--electric); }
+  .slider-help { font-size:11.5px; color:var(--grey); margin-top:6px; }
+
+  .threshold-preview { display:flex; gap:0; border-radius:10px; overflow:hidden; margin-top:16px; height:34px; }
+  .threshold-preview div { display:flex; align-items:center; justify-content:center; font-size:10.5px; font-weight:800; color:white; }
+
+  textarea#domains-input {
+    width:100%; min-height:110px; padding:11px 13px; border:1.5px solid var(--border); border-radius:10px;
+    font-size:13px; font-family: "Courier New", monospace; color:var(--ink); resize:vertical; outline:none;
+  }
+  textarea#domains-input:focus { border-color: var(--electric); }
+
+  .save-row { display:flex; align-items:center; gap:14px; margin-top:18px; }
+  .save-btn {
+    background: var(--navy); color:white; border:none; font-weight:700; font-size:14px;
+    padding:12px 26px; border-radius:10px; cursor:pointer;
+  }
+  .save-btn:hover { background: var(--navy-2); }
+  .save-toast { font-size:12.5px; font-weight:700; color: var(--mint); display:none; }
+  .save-toast.show { display:inline; }
+</style>
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="brand">
+      <img src="assets/logo-icon.png" alt="PhishGuard" class="brand-badge brand-badge-img" />
+      <div>
+        <div class="brand-title">PhishGuard</div>
+        <div class="brand-sub">AI-Assisted Phishing Triage · Problem #19</div>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <span id="live-clock"></span>
+    </div>
+  </header>
+
+  <div class="app-body">
+    <nav class="sidebar">
+      <div class="sidebar-section-label">Console</div>
+      <a href="/dashboard" class="nav-link"><span class="nav-icon">&#9635;</span> Overview</a>
+      <a href="/test" class="nav-link"><span class="nav-icon">&#9993;</span> Test an Email</a>
+      <a href="/analytics" class="nav-link"><span class="nav-icon">&#128202;</span> Analytics</a>
+      <a href="/settings" class="nav-link active"><span class="nav-icon">&#9881;</span> Settings</a>
+      <a href="/activity" class="nav-link"><span class="nav-icon">&#128203;</span> Activity Log</a>
+
+      <div class="sidebar-foot">
+        <div class="sidebar-analyst">Signed in as<br/><b id="sidebar-analyst-name">analyst</b></div>
+        <button id="logout-btn" class="logout-btn logout-btn-block">Log out</button>
+      </div>
+    </nav>
+
+    <main class="content-area">
+      <div class="page">
+
+        <section class="hero">
+          <div class="hero-text">
+            <h1>Tune the triage engine.</h1>
+            <p>Adjust how confident PhishGuard needs to be before auto-deciding
+               an email, and manage which sender domains are treated as verified.
+               Changes apply immediately across the whole app.</p>
+          </div>
+        </section>
+
+        <div class="panel">
+          <h3>Confidence Thresholds</h3>
+          <div class="panel-sub">Controls the HIGH / NEEDS REVIEW / LOW cutoffs used on Overview and Test an Email</div>
+
+          <div class="slider-row">
+            <div class="slider-label-row">
+              <label for="medium-slider">Needs Review threshold</label>
+              <span class="slider-value medium" id="medium-value">50%</span>
+            </div>
+            <input type="range" id="medium-slider" min="10" max="95" value="50" />
+            <div class="slider-help">Emails scoring at or above this — but below High — go to a human analyst instead of being auto-decided.</div>
+          </div>
+
+          <div class="slider-row">
+            <div class="slider-label-row">
+              <label for="high-slider">High Risk threshold</label>
+              <span class="slider-value high" id="high-value">80%</span>
+            </div>
+            <input type="range" id="high-slider" min="20" max="99" value="80" />
+            <div class="slider-help">Emails scoring at or above this are auto-flagged as High Risk and shown at the top of the queue.</div>
+          </div>
+
+          <div class="threshold-preview" id="threshold-preview"></div>
+        </div>
+
+        <div class="panel">
+          <h3>Trusted Sender Domains</h3>
+          <div class="panel-sub">One domain per line. Emails from these domains are treated as verified/internal.</div>
+          <textarea id="domains-input"></textarea>
+        </div>
+
+        <div class="save-row">
+          <button class="save-btn" id="save-btn">Save Settings</button>
+          <span class="save-toast" id="save-toast">Saved — changes are live.</span>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <script src="auth.js"></script>
+  <script src="settings.js"></script>
+</body>
+</html>

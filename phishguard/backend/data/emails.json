@@ -1,0 +1,1634 @@
+[
+  {
+    "id": "phish_72",
+    "sender_name": "Office 365 Admin",
+    "sender_email": "no-reply@micros0ft-support.com",
+    "subject": "HR Payroll Update - action needed",
+    "body": "Dear Valued Customer, Your access expires in 30 minutes. Click the link and click here to verify your password to avoid permanent closure. http://micros0ft-support.com/update-info",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_29",
+    "sender_name": "Office 365 Admin",
+    "sender_email": "no-reply@verify-account-now.top",
+    "subject": "Invoice attached - payment overdue, verify now",
+    "body": "Security Notice: Act now to avoid permanent deactivation. Please confirm your social security number to restore full access to your account. http://verify-account-now.top/update-info",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_85",
+    "sender_name": "GitHub",
+    "sender_email": "github@workday.com",
+    "subject": "Payslip for this month is available",
+    "body": "Your Zoom recording from yesterday's meeting is now available on the internal drive.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_34",
+    "sender_name": "Zoom",
+    "sender_email": "zoom@slack.com",
+    "subject": "New comment on your pull request",
+    "body": "Reminder: 1:1 with your manager is scheduled for tomorrow at 10 AM.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_35",
+    "sender_name": "HR Payroll Update",
+    "sender_email": "no-reply@it-helpdesk-support.info",
+    "subject": "Your PayPal account has been limited",
+    "body": "Dear User, we detected unusual activity on your account. re-enter your password to unlock your account immediately to prevent suspension. http://it-helpdesk-support.info/confirm-id",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_81",
+    "sender_name": "Bank Security Alert",
+    "sender_email": "no-reply@secure-0ffice365.com",
+    "subject": "Your password will expire today - verify now",
+    "body": "Attention: your mailbox storage is full. provide your employee ID and password to avoid losing access to your emails. http://secure-0ffice365.com/verify-account",
+    "label": "phishing"
+  },
+  {
+    "id": "ambig_1",
+    "sender_name": "GitHub",
+    "sender_email": "updates@paypa1-secure.com",
+    "subject": "New notification from your account",
+    "body": "Hello, a new document has been shared with you. https://paypa1-secure.com/dashboard",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_68",
+    "sender_name": "IT Support Desk",
+    "sender_email": "it@workday.com",
+    "subject": "Your leave request has been approved",
+    "body": "Your Zoom recording from yesterday's meeting is now available on the internal drive.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_0",
+    "sender_name": "Priya (HR)",
+    "sender_email": "priya@github.com",
+    "subject": "New comment on your pull request",
+    "body": "Priya left a comment on your pull request: 'Looks good, just fix the lint warnings.' Link: https://github.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "safe_15",
+    "sender_name": "Zoom",
+    "sender_email": "zoom@github.com",
+    "subject": "Slack workspace update notes",
+    "body": "Hi Sam, your payslip for this month has been generated and is available on the HR portal.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_45",
+    "sender_name": "Apple ID Support",
+    "sender_email": "no-reply@appleid-verify.net",
+    "subject": "HR Payroll Update - action needed",
+    "body": "Security Notice: Your access expires in 30 minutes. Please click here to verify your password to restore full access to your account. http://appleid-verify.net/verify-account!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_70",
+    "sender_name": "HR Payroll Update",
+    "sender_email": "no-reply@verify-account-now.top",
+    "subject": "HR Payroll Update - action needed",
+    "body": "Your invoice is overdue. Please confirm your social security number to release your account from hold. Failure to respond will result in account closure. http://verify-account-now.top/verify-account!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_49",
+    "sender_name": "Manager - Raj Mehta",
+    "sender_email": "manager@company.com",
+    "subject": "Calendar invite: 1:1 with your manager",
+    "body": "You're invited to the Q3 planning meeting on Thursday at 3 PM. See the calendar link inside our internal portal.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_24",
+    "sender_name": "PayPal Account Team",
+    "sender_email": "no-reply@g00gle-alerts.com",
+    "subject": "URGENT: Your account has been locked",
+    "body": "Hello, your password expires today. Failure to respond will result in account closure. provide your employee ID and password using the secure link provided. http://g00gle-alerts.com/update-info!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_76",
+    "sender_name": "Atlassian",
+    "sender_email": "atlassian@microsoft.com",
+    "subject": "Welcome to the new onboarding portal",
+    "body": "Hi Rohit, your payslip for this month has been generated and is available on the HR portal.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_15",
+    "sender_name": "Account Verification",
+    "sender_email": "no-reply@it-helpdesk-support.info",
+    "subject": "Your PayPal account has been limited",
+    "body": "Your invoice is overdue. Please re-enter your password to unlock your account to release your account from hold. Failure to respond will result in account closure. http://it-helpdesk-support.info/verify-account!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_17",
+    "sender_name": "GitHub",
+    "sender_email": "github@google.com",
+    "subject": "Reminder: submit your timesheet by Friday",
+    "body": "Hi Alex, your payslip for this month has been generated and is available on the HR portal.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_28",
+    "sender_name": "HR Payroll Update",
+    "sender_email": "no-reply@paypa1-secure.com",
+    "subject": "Security Alert: unusual sign-in activity detected",
+    "body": "Security Notice: Your account will be suspended in 24 hours. Please provide your employee ID and password to restore full access to your account. http://paypa1-secure.com/secure-login",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_26",
+    "sender_name": "Zoom",
+    "sender_email": "zoom@slack.com",
+    "subject": "Meeting invite: Q3 planning",
+    "body": "Hi Ananya, your payslip for this month has been generated and is available on the HR portal.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_27",
+    "sender_name": "Atlassian",
+    "sender_email": "atlassian@atlassian.com",
+    "subject": "Your leave request has been approved",
+    "body": "Jordan left a comment on your pull request: 'Looks good, just fix the lint warnings.' Link: https://atlassian.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "phish_60",
+    "sender_name": "PayPal Account Team",
+    "sender_email": "no-reply@appleid-verify.net",
+    "subject": "Your password will expire today - verify now",
+    "body": "Security Notice: Your account will be suspended in 24 hours. Please provide your employee ID and password to restore full access to your account. http://appleid-verify.net/secure-login!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "ambig_3",
+    "sender_name": "Atlassian",
+    "sender_email": "updates@hr-portal-update.xyz",
+    "subject": "Document shared with you",
+    "body": "Hello, a new document has been shared with you. https://hr-portal-update.xyz/dashboard",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_59",
+    "sender_name": "Microsoft Support",
+    "sender_email": "no-reply@g00gle-alerts.com",
+    "subject": "Your mailbox is almost full, click to resolve",
+    "body": "Hello, your password expires today. Act now to avoid permanent deactivation. re-enter your password to unlock your account using the secure link provided. http://g00gle-alerts.com/secure-login",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_2",
+    "sender_name": "PayPal Account Team",
+    "sender_email": "no-reply@verify-account-now.top",
+    "subject": "Your password will expire today - verify now",
+    "body": "Security Notice: Your account will be suspended in 24 hours. Please enter your account details to continue to restore full access to your account. http://verify-account-now.top/update-info!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_64",
+    "sender_name": "Priya (HR)",
+    "sender_email": "priya@microsoft.com",
+    "subject": "Meeting invite: Q3 planning",
+    "body": "Hi, this is a friendly reminder to submit your timesheet before end of day Friday.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_64",
+    "sender_name": "Office 365 Admin",
+    "sender_email": "no-reply@verify-account-now.top",
+    "subject": "Action Required: Verify your Office 365 account",
+    "body": "Your invoice is overdue. Please re-enter your password to unlock your account to release your account from hold. Immediate action required. http://verify-account-now.top/update-info",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_26",
+    "sender_name": "HR Payroll Update",
+    "sender_email": "no-reply@verify-account-now.top",
+    "subject": "Invoice attached - payment overdue, verify now",
+    "body": "Hello, your password expires today. This is your final notice. enter your account details to continue using the secure link provided. http://verify-account-now.top/verify-account!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_48",
+    "sender_name": "GitHub",
+    "sender_email": "github@slack.com",
+    "subject": "Your Zoom recording is ready",
+    "body": "You're invited to the Q3 planning meeting on Thursday at 3 PM. See the calendar link inside our internal portal. Link: https://slack.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "safe_16",
+    "sender_name": "IT Support Desk",
+    "sender_email": "it@slack.com",
+    "subject": "Reminder: submit your timesheet by Friday",
+    "body": "Reminder: 1:1 with your manager is scheduled for tomorrow at 10 AM.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_40",
+    "sender_name": "Office 365 Admin",
+    "sender_email": "no-reply@hr-portal-update.xyz",
+    "subject": "Your mailbox is almost full, click to resolve",
+    "body": "Hello, your password expires today. Failure to respond will result in account closure. click here to verify your password using the secure link provided. http://hr-portal-update.xyz/update-info!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_58",
+    "sender_name": "IT Security Team",
+    "sender_email": "no-reply@verify-account-now.top",
+    "subject": "Your password will expire today - verify now",
+    "body": "Dear Customer, Failure to respond will result in account closure. enter your account details to continue at the link below to keep your account active. http://verify-account-now.top/verify-account!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_52",
+    "sender_name": "Apple ID Support",
+    "sender_email": "no-reply@bank0famerica-alert.com",
+    "subject": "URGENT: Your account has been locked",
+    "body": "Dear Valued Customer, Act now to avoid permanent deactivation. Click the link and verify your bank account details to avoid permanent closure. http://bank0famerica-alert.com/confirm-id!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_6",
+    "sender_name": "Manager - Raj Mehta",
+    "sender_email": "manager@github.com",
+    "subject": "Weekly team sync notes",
+    "body": "Welcome aboard! Here is your onboarding checklist for your first week.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_50",
+    "sender_name": "Account Verification",
+    "sender_email": "no-reply@appleid-verify.net",
+    "subject": "Invoice attached - payment overdue, verify now",
+    "body": "Your invoice is overdue. Please re-enter your password to unlock your account to release your account from hold. Your access expires in 30 minutes. http://appleid-verify.net/update-info",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_6",
+    "sender_name": "Account Verification",
+    "sender_email": "no-reply@payroll-update-request.ru",
+    "subject": "Action Required: Verify your Office 365 account",
+    "body": "Dear Valued Customer, Your access expires in 30 minutes. Click the link and confirm your login credentials to avoid permanent closure. http://payroll-update-request.ru/update-info",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_8",
+    "sender_name": "IT Security Team",
+    "sender_email": "no-reply@it-helpdesk-support.info",
+    "subject": "URGENT: Your account has been locked",
+    "body": "Security Notice: Act now to avoid permanent deactivation. Please provide your employee ID and password to restore full access to your account. http://it-helpdesk-support.info/confirm-id",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_47",
+    "sender_name": "GitHub",
+    "sender_email": "github@slack.com",
+    "subject": "Calendar invite: 1:1 with your manager",
+    "body": "You're invited to the Q3 planning meeting on Thursday at 3 PM. See the calendar link inside our internal portal. Link: https://slack.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "safe_89",
+    "sender_name": "Atlassian",
+    "sender_email": "atlassian@slack.com",
+    "subject": "Meeting invite: Q3 planning",
+    "body": "Hi Rohit, your payslip for this month has been generated and is available on the HR portal.",
+    "label": "safe"
+  },
+  {
+    "id": "ambig_10",
+    "sender_name": "Finance Team",
+    "sender_email": "updates@payroll-update-request.ru",
+    "subject": "New notification from your account",
+    "body": "Hello, a new document has been shared with you. https://payroll-update-request.ru/dashboard",
+    "label": "phishing"
+  },
+  {
+    "id": "ambig_12",
+    "sender_name": "Manager - Raj Mehta",
+    "sender_email": "updates@paypa1-secure.com",
+    "subject": "New notification from your account",
+    "body": "Hello, a new document has been shared with you. https://paypa1-secure.com/dashboard",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_36",
+    "sender_name": "Atlassian",
+    "sender_email": "atlassian@microsoft.com",
+    "subject": "Weekly team sync notes",
+    "body": "Reminder: 1:1 with your manager is scheduled for tomorrow at 10 AM.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_33",
+    "sender_name": "Apple ID Support",
+    "sender_email": "no-reply@g00gle-alerts.com",
+    "subject": "Your PayPal account has been limited",
+    "body": "Attention: your mailbox storage is full. confirm your social security number to avoid losing access to your emails. http://g00gle-alerts.com/confirm-id!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_22",
+    "sender_name": "Helpdesk Support",
+    "sender_email": "no-reply@appleid-verify.net",
+    "subject": "Security Alert: unusual sign-in activity detected",
+    "body": "Dear Valued Customer, Immediate action required. Click the link and verify your bank account details to avoid permanent closure. http://appleid-verify.net/update-info",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_32",
+    "sender_name": "Account Verification",
+    "sender_email": "no-reply@g00gle-alerts.com",
+    "subject": "URGENT: Your account has been locked",
+    "body": "Dear Employee, HR requires you to enter your account details to continue to process this month's payroll. Immediate action required. http://g00gle-alerts.com/confirm-id!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_37",
+    "sender_name": "Zoom",
+    "sender_email": "zoom@google.com",
+    "subject": "Payslip for this month is available",
+    "body": "Welcome aboard! Here is your onboarding checklist for your first week.",
+    "label": "safe"
+  },
+  {
+    "id": "ambig_7",
+    "sender_name": "Finance Team",
+    "sender_email": "noreply@microsoft.com",
+    "subject": "Reminder: update your password before it expires",
+    "body": "Hi, as part of a routine security update, please confirm your login details before Friday. https://microsoft.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "phish_4",
+    "sender_name": "Account Verification",
+    "sender_email": "no-reply@micros0ft-support.com",
+    "subject": "IT Helpdesk: confirm your credentials to continue",
+    "body": "Attention: your mailbox storage is full. enter your account details to continue to avoid losing access to your emails. http://micros0ft-support.com/verify-account",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_62",
+    "sender_name": "Zoom",
+    "sender_email": "zoom@company.com",
+    "subject": "New comment on your pull request",
+    "body": "Hi Rohit, your payslip for this month has been generated and is available on the HR portal. Link: https://company.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "safe_66",
+    "sender_name": "Finance Team",
+    "sender_email": "finance@microsoft.com",
+    "subject": "Payslip for this month is available",
+    "body": "Here are this week's Slack workspace updates and new channel guidelines. Link: https://microsoft.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "phish_17",
+    "sender_name": "HR Payroll Update",
+    "sender_email": "no-reply@login-secure.club",
+    "subject": "URGENT: Your account has been locked",
+    "body": "Dear User, we detected unusual activity on your account. confirm your login credentials immediately to prevent suspension. http://login-secure.club/secure-login",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_39",
+    "sender_name": "Account Verification",
+    "sender_email": "no-reply@g00gle-alerts.com",
+    "subject": "Your password will expire today - verify now",
+    "body": "Dear Valued Customer, Your access expires in 30 minutes. Click the link and re-enter your password to unlock your account to avoid permanent closure. http://g00gle-alerts.com/verify-account!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_73",
+    "sender_name": "Atlassian",
+    "sender_email": "atlassian@atlassian.com",
+    "subject": "Welcome to the new onboarding portal",
+    "body": "Jordan left a comment on your pull request: 'Looks good, just fix the lint warnings.'",
+    "label": "safe"
+  },
+  {
+    "id": "safe_61",
+    "sender_name": "Atlassian",
+    "sender_email": "atlassian@slack.com",
+    "subject": "New comment on your pull request",
+    "body": "Welcome aboard! Here is your onboarding checklist for your first week. Link: https://slack.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "safe_87",
+    "sender_name": "Manager - Raj Mehta",
+    "sender_email": "manager@workday.com",
+    "subject": "Welcome to the new onboarding portal",
+    "body": "Hi team, attaching the notes from today's sync. Let me know if I missed anything.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_53",
+    "sender_name": "Workday Notifications",
+    "sender_email": "workday@company.com",
+    "subject": "Weekly team sync notes",
+    "body": "Your Zoom recording from yesterday's meeting is now available on the internal drive.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_23",
+    "sender_name": "Workday Notifications",
+    "sender_email": "workday@slack.com",
+    "subject": "Weekly team sync notes",
+    "body": "Jordan left a comment on your pull request: 'Looks good, just fix the lint warnings.'",
+    "label": "safe"
+  },
+  {
+    "id": "safe_3",
+    "sender_name": "Google Calendar",
+    "sender_email": "google@workday.com",
+    "subject": "New comment on your pull request",
+    "body": "Welcome aboard! Here is your onboarding checklist for your first week.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_2",
+    "sender_name": "Zoom",
+    "sender_email": "zoom@slack.com",
+    "subject": "Calendar invite: 1:1 with your manager",
+    "body": "Here are this week's Slack workspace updates and new channel guidelines. Link: https://slack.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "phish_14",
+    "sender_name": "HR Payroll Update",
+    "sender_email": "no-reply@hr-portal-update.xyz",
+    "subject": "Security Alert: unusual sign-in activity detected",
+    "body": "Dear Employee, HR requires you to click here to verify your password to process this month's payroll. Urgent: verify your identity today. http://hr-portal-update.xyz/confirm-id!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_89",
+    "sender_name": "Bank Security Alert",
+    "sender_email": "no-reply@it-helpdesk-support.info",
+    "subject": "Your password will expire today - verify now",
+    "body": "Dear Employee, HR requires you to confirm your login credentials to process this month's payroll. Your account will be suspended in 24 hours. http://it-helpdesk-support.info/update-info!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_71",
+    "sender_name": "Slack",
+    "sender_email": "slack@github.com",
+    "subject": "Payslip for this month is available",
+    "body": "Reminder: 1:1 with your manager is scheduled for tomorrow at 10 AM.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_49",
+    "sender_name": "Office 365 Admin",
+    "sender_email": "no-reply@hr-portal-update.xyz",
+    "subject": "IT Helpdesk: confirm your credentials to continue",
+    "body": "Dear Customer, Act now to avoid permanent deactivation. confirm your social security number at the link below to keep your account active. http://hr-portal-update.xyz/update-info",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_86",
+    "sender_name": "Priya (HR)",
+    "sender_email": "priya@slack.com",
+    "subject": "Payslip for this month is available",
+    "body": "Hi Ananya, your payslip for this month has been generated and is available on the HR portal.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_45",
+    "sender_name": "Workday Notifications",
+    "sender_email": "workday@slack.com",
+    "subject": "Your Zoom recording is ready",
+    "body": "Jordan left a comment on your pull request: 'Looks good, just fix the lint warnings.' Link: https://slack.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "safe_7",
+    "sender_name": "GitHub",
+    "sender_email": "github@github.com",
+    "subject": "Slack workspace update notes",
+    "body": "Your Zoom recording from yesterday's meeting is now available on the internal drive.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_69",
+    "sender_name": "Office 365 Admin",
+    "sender_email": "no-reply@appleid-verify.net",
+    "subject": "Security Alert: unusual sign-in activity detected",
+    "body": "Your invoice is overdue. Please confirm your social security number to release your account from hold. Immediate action required. http://appleid-verify.net/update-info",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_38",
+    "sender_name": "Priya (HR)",
+    "sender_email": "priya@google.com",
+    "subject": "Payslip for this month is available",
+    "body": "Hi team, attaching the notes from today's sync. Let me know if I missed anything.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_70",
+    "sender_name": "Google Calendar",
+    "sender_email": "google@google.com",
+    "subject": "New comment on your pull request",
+    "body": "Hi Meera, your payslip for this month has been generated and is available on the HR portal.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_60",
+    "sender_name": "Zoom",
+    "sender_email": "zoom@github.com",
+    "subject": "Reminder: submit your timesheet by Friday",
+    "body": "Hi Ananya, your leave request for next week has been approved by your manager. Link: https://github.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "safe_8",
+    "sender_name": "Priya (HR)",
+    "sender_email": "priya@slack.com",
+    "subject": "Meeting invite: Q3 planning",
+    "body": "Hi Priya, your leave request for next week has been approved by your manager.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_77",
+    "sender_name": "Helpdesk Support",
+    "sender_email": "no-reply@bank0famerica-alert.com",
+    "subject": "Your PayPal account has been limited",
+    "body": "Hello, your password expires today. Failure to respond will result in account closure. verify your bank account details using the secure link provided. http://bank0famerica-alert.com/confirm-id",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_1",
+    "sender_name": "Helpdesk Support",
+    "sender_email": "no-reply@micros0ft-support.com",
+    "subject": "Final Notice: account suspension pending",
+    "body": "Dear Customer, Your access expires in 30 minutes. provide your employee ID and password at the link below to keep your account active. http://micros0ft-support.com/verify-account",
+    "label": "phishing"
+  },
+  {
+    "id": "ambig_15",
+    "sender_name": "Workday Notifications",
+    "sender_email": "updates@paypa1-secure.com",
+    "subject": "New notification from your account",
+    "body": "Hello, a new document has been shared with you. https://paypa1-secure.com/dashboard",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_41",
+    "sender_name": "IT Support Desk",
+    "sender_email": "it@company.com",
+    "subject": "Weekly team sync notes",
+    "body": "Here are this week's Slack workspace updates and new channel guidelines.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_56",
+    "sender_name": "Bank Security Alert",
+    "sender_email": "no-reply@payroll-update-request.ru",
+    "subject": "IT Helpdesk: confirm your credentials to continue",
+    "body": "Dear Valued Customer, This is your final notice. Click the link and enter your account details to continue to avoid permanent closure. http://payroll-update-request.ru/verify-account",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_57",
+    "sender_name": "IT Support Desk",
+    "sender_email": "it@slack.com",
+    "subject": "New comment on your pull request",
+    "body": "Hi Alex, your leave request for next week has been approved by your manager. Link: https://slack.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "phish_42",
+    "sender_name": "HR Payroll Update",
+    "sender_email": "no-reply@hr-portal-update.xyz",
+    "subject": "Action Required: Verify your Office 365 account",
+    "body": "Dear Customer, Urgent: verify your identity today. re-enter your password to unlock your account at the link below to keep your account active. http://hr-portal-update.xyz/confirm-id!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_84",
+    "sender_name": "Microsoft Support",
+    "sender_email": "no-reply@appleid-verify.net",
+    "subject": "URGENT: Your account has been locked",
+    "body": "Attention: your mailbox storage is full. confirm your social security number to avoid losing access to your emails. http://appleid-verify.net/update-info!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_59",
+    "sender_name": "Finance Team",
+    "sender_email": "finance@company.com",
+    "subject": "Reminder: submit your timesheet by Friday",
+    "body": "Your Zoom recording from yesterday's meeting is now available on the internal drive.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_63",
+    "sender_name": "Workday Notifications",
+    "sender_email": "workday@zoom.us",
+    "subject": "Calendar invite: 1:1 with your manager",
+    "body": "Hi Priya, your payslip for this month has been generated and is available on the HR portal.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_84",
+    "sender_name": "Slack",
+    "sender_email": "slack@google.com",
+    "subject": "New comment on your pull request",
+    "body": "Hi Priya, your payslip for this month has been generated and is available on the HR portal.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_10",
+    "sender_name": "HR Payroll Update",
+    "sender_email": "no-reply@payroll-update-request.ru",
+    "subject": "Your PayPal account has been limited",
+    "body": "Dear Customer, Urgent: verify your identity today. click here to verify your password at the link below to keep your account active. http://payroll-update-request.ru/update-info",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_47",
+    "sender_name": "HR Payroll Update",
+    "sender_email": "no-reply@login-secure.club",
+    "subject": "HR Payroll Update - action needed",
+    "body": "Dear Valued Customer, This is your final notice. Click the link and confirm your social security number to avoid permanent closure. http://login-secure.club/confirm-id!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_71",
+    "sender_name": "IT Security Team",
+    "sender_email": "no-reply@appleid-verify.net",
+    "subject": "Security Alert: unusual sign-in activity detected",
+    "body": "Security Notice: Urgent: verify your identity today. Please verify your bank account details to restore full access to your account. http://appleid-verify.net/update-info!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_22",
+    "sender_name": "Manager - Raj Mehta",
+    "sender_email": "manager@zoom.us",
+    "subject": "Welcome to the new onboarding portal",
+    "body": "Hi team, attaching the notes from today's sync. Let me know if I missed anything. Link: https://zoom.us/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "safe_25",
+    "sender_name": "Atlassian",
+    "sender_email": "atlassian@google.com",
+    "subject": "Meeting invite: Q3 planning",
+    "body": "Reminder: 1:1 with your manager is scheduled for tomorrow at 10 AM.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_32",
+    "sender_name": "IT Support Desk",
+    "sender_email": "it@workday.com",
+    "subject": "Payslip for this month is available",
+    "body": "Welcome aboard! Here is your onboarding checklist for your first week.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_54",
+    "sender_name": "Account Verification",
+    "sender_email": "no-reply@paypa1-secure.com",
+    "subject": "IT Helpdesk: confirm your credentials to continue",
+    "body": "Hello, your password expires today. This is your final notice. click here to verify your password using the secure link provided. http://paypa1-secure.com/confirm-id",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_25",
+    "sender_name": "Microsoft Support",
+    "sender_email": "no-reply@login-secure.club",
+    "subject": "HR Payroll Update - action needed",
+    "body": "Dear Valued Customer, Failure to respond will result in account closure. Click the link and confirm your login credentials to avoid permanent closure. http://login-secure.club/verify-account",
+    "label": "phishing"
+  },
+  {
+    "id": "ambig_23",
+    "sender_name": "IT Support Desk",
+    "sender_email": "updates@appleid-verify.net",
+    "subject": "Document shared with you",
+    "body": "Hello, a new document has been shared with you. https://appleid-verify.net/dashboard",
+    "label": "phishing"
+  },
+  {
+    "id": "ambig_20",
+    "sender_name": "Slack",
+    "sender_email": "updates@paypa1-secure.com",
+    "subject": "New notification from your account",
+    "body": "Hello, a new document has been shared with you. https://paypa1-secure.com/dashboard",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_82",
+    "sender_name": "Workday Notifications",
+    "sender_email": "workday@atlassian.com",
+    "subject": "New comment on your pull request",
+    "body": "You're invited to the Q3 planning meeting on Thursday at 3 PM. See the calendar link inside our internal portal.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_3",
+    "sender_name": "Bank Security Alert",
+    "sender_email": "no-reply@hr-portal-update.xyz",
+    "subject": "Final Notice: account suspension pending",
+    "body": "Security Notice: Act now to avoid permanent deactivation. Please confirm your social security number to restore full access to your account. http://hr-portal-update.xyz/update-info",
+    "label": "phishing"
+  },
+  {
+    "id": "ambig_11",
+    "sender_name": "Workday Notifications",
+    "sender_email": "noreply@github.com",
+    "subject": "Action needed: confirm your details for payroll",
+    "body": "Hi, as part of a routine security update, please confirm your login details before Friday. https://github.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "safe_24",
+    "sender_name": "GitHub",
+    "sender_email": "github@atlassian.com",
+    "subject": "Your leave request has been approved",
+    "body": "Reminder: 1:1 with your manager is scheduled for tomorrow at 10 AM.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_36",
+    "sender_name": "Office 365 Admin",
+    "sender_email": "no-reply@g00gle-alerts.com",
+    "subject": "IT Helpdesk: confirm your credentials to continue",
+    "body": "Dear Valued Customer, Your access expires in 30 minutes. Click the link and re-enter your password to unlock your account to avoid permanent closure. http://g00gle-alerts.com/verify-account",
+    "label": "phishing"
+  },
+  {
+    "id": "ambig_19",
+    "sender_name": "IT Support Desk",
+    "sender_email": "noreply@google.com",
+    "subject": "Please verify your account information",
+    "body": "Hi, as part of a routine security update, please confirm your login details before Friday. https://google.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "phish_74",
+    "sender_name": "Account Verification",
+    "sender_email": "no-reply@micros0ft-support.com",
+    "subject": "Your PayPal account has been limited",
+    "body": "Attention: your mailbox storage is full. enter your account details to continue to avoid losing access to your emails. http://micros0ft-support.com/verify-account",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_81",
+    "sender_name": "Google Calendar",
+    "sender_email": "google@atlassian.com",
+    "subject": "Reminder: submit your timesheet by Friday",
+    "body": "Welcome aboard! Here is your onboarding checklist for your first week.",
+    "label": "safe"
+  },
+  {
+    "id": "ambig_14",
+    "sender_name": "Finance Team",
+    "sender_email": "noreply@microsoft.com",
+    "subject": "Please verify your account information",
+    "body": "Hi, as part of a routine security update, please confirm your login details before Friday. https://microsoft.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "safe_9",
+    "sender_name": "Finance Team",
+    "sender_email": "finance@github.com",
+    "subject": "Welcome to the new onboarding portal",
+    "body": "Your Zoom recording from yesterday's meeting is now available on the internal drive. Link: https://github.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "ambig_21",
+    "sender_name": "Workday Notifications",
+    "sender_email": "noreply@microsoft.com",
+    "subject": "Please verify your account information",
+    "body": "Hi, as part of a routine security update, please confirm your login details before Friday. https://microsoft.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "phish_9",
+    "sender_name": "Apple ID Support",
+    "sender_email": "no-reply@paypa1-secure.com",
+    "subject": "Your PayPal account has been limited",
+    "body": "Attention: your mailbox storage is full. confirm your social security number to avoid losing access to your emails. http://paypa1-secure.com/verify-account",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_42",
+    "sender_name": "Priya (HR)",
+    "sender_email": "priya@microsoft.com",
+    "subject": "Reminder: submit your timesheet by Friday",
+    "body": "Hi Sam, your leave request for next week has been approved by your manager.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_85",
+    "sender_name": "HR Payroll Update",
+    "sender_email": "no-reply@micros0ft-support.com",
+    "subject": "Your password will expire today - verify now",
+    "body": "Dear User, we detected unusual activity on your account. re-enter your password to unlock your account immediately to prevent suspension. http://micros0ft-support.com/verify-account!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_75",
+    "sender_name": "Account Verification",
+    "sender_email": "no-reply@g00gle-alerts.com",
+    "subject": "Final Notice: account suspension pending",
+    "body": "Dear Customer, Your account will be suspended in 24 hours. confirm your login credentials at the link below to keep your account active. http://g00gle-alerts.com/verify-account!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_5",
+    "sender_name": "Microsoft Support",
+    "sender_email": "no-reply@micros0ft-support.com",
+    "subject": "Security Alert: unusual sign-in activity detected",
+    "body": "Dear Customer, Immediate action required. confirm your social security number at the link below to keep your account active. http://micros0ft-support.com/secure-login!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "ambig_16",
+    "sender_name": "Workday Notifications",
+    "sender_email": "noreply@workday.com",
+    "subject": "Please verify your account information",
+    "body": "Hi, as part of a routine security update, please confirm your login details before Friday. https://workday.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "safe_50",
+    "sender_name": "Slack",
+    "sender_email": "slack@github.com",
+    "subject": "Your leave request has been approved",
+    "body": "Hi Priya, your leave request for next week has been approved by your manager.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_51",
+    "sender_name": "Helpdesk Support",
+    "sender_email": "no-reply@bank0famerica-alert.com",
+    "subject": "Invoice attached - payment overdue, verify now",
+    "body": "Attention: your mailbox storage is full. confirm your social security number to avoid losing access to your emails. http://bank0famerica-alert.com/secure-login",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_67",
+    "sender_name": "Finance Team",
+    "sender_email": "finance@company.com",
+    "subject": "Calendar invite: 1:1 with your manager",
+    "body": "Reminder: 1:1 with your manager is scheduled for tomorrow at 10 AM.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_51",
+    "sender_name": "Workday Notifications",
+    "sender_email": "workday@github.com",
+    "subject": "Slack workspace update notes",
+    "body": "Sam left a comment on your pull request: 'Looks good, just fix the lint warnings.'",
+    "label": "safe"
+  },
+  {
+    "id": "safe_75",
+    "sender_name": "Workday Notifications",
+    "sender_email": "workday@slack.com",
+    "subject": "New comment on your pull request",
+    "body": "Hi, this is a friendly reminder to submit your timesheet before end of day Friday. Link: https://slack.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "phish_30",
+    "sender_name": "Microsoft Support",
+    "sender_email": "no-reply@it-helpdesk-support.info",
+    "subject": "Action Required: Verify your Office 365 account",
+    "body": "Attention: your mailbox storage is full. confirm your login credentials to avoid losing access to your emails. http://it-helpdesk-support.info/update-info",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_31",
+    "sender_name": "Zoom",
+    "sender_email": "zoom@atlassian.com",
+    "subject": "Payslip for this month is available",
+    "body": "Kabir left a comment on your pull request: 'Looks good, just fix the lint warnings.' Link: https://atlassian.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "ambig_17",
+    "sender_name": "IT Support Desk",
+    "sender_email": "noreply@github.com",
+    "subject": "Reminder: update your password before it expires",
+    "body": "Hi, as part of a routine security update, please confirm your login details before Friday. https://github.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "ambig_6",
+    "sender_name": "IT Support Desk",
+    "sender_email": "noreply@atlassian.com",
+    "subject": "Reminder: update your password before it expires",
+    "body": "Hi, as part of a routine security update, please confirm your login details before Friday. https://atlassian.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "ambig_0",
+    "sender_name": "Google Calendar",
+    "sender_email": "updates@verify-account-now.top",
+    "subject": "New notification from your account",
+    "body": "Hello, a new document has been shared with you. https://verify-account-now.top/dashboard",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_78",
+    "sender_name": "Account Verification",
+    "sender_email": "no-reply@it-helpdesk-support.info",
+    "subject": "Final Notice: account suspension pending",
+    "body": "Your invoice is overdue. Please click here to verify your password to release your account from hold. Act now to avoid permanent deactivation. http://it-helpdesk-support.info/secure-login!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_46",
+    "sender_name": "Workday Notifications",
+    "sender_email": "workday@atlassian.com",
+    "subject": "Your Zoom recording is ready",
+    "body": "Hi Sam, your leave request for next week has been approved by your manager. Link: https://atlassian.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "phish_48",
+    "sender_name": "Helpdesk Support",
+    "sender_email": "no-reply@appleid-verify.net",
+    "subject": "Final Notice: account suspension pending",
+    "body": "Hello, your password expires today. Immediate action required. provide your employee ID and password using the secure link provided. http://appleid-verify.net/verify-account!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_87",
+    "sender_name": "Helpdesk Support",
+    "sender_email": "no-reply@g00gle-alerts.com",
+    "subject": "Invoice attached - payment overdue, verify now",
+    "body": "Dear Customer, Failure to respond will result in account closure. click here to verify your password at the link below to keep your account active. http://g00gle-alerts.com/confirm-id",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_43",
+    "sender_name": "Apple ID Support",
+    "sender_email": "no-reply@login-secure.club",
+    "subject": "Your mailbox is almost full, click to resolve",
+    "body": "Dear Valued Customer, Your access expires in 30 minutes. Click the link and confirm your social security number to avoid permanent closure. http://login-secure.club/confirm-id",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_57",
+    "sender_name": "Apple ID Support",
+    "sender_email": "no-reply@payroll-update-request.ru",
+    "subject": "HR Payroll Update - action needed",
+    "body": "Dear User, we detected unusual activity on your account. verify your bank account details immediately to prevent suspension. http://payroll-update-request.ru/confirm-id",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_79",
+    "sender_name": "Priya (HR)",
+    "sender_email": "priya@slack.com",
+    "subject": "Your leave request has been approved",
+    "body": "Welcome aboard! Here is your onboarding checklist for your first week. Link: https://slack.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "phish_31",
+    "sender_name": "PayPal Account Team",
+    "sender_email": "no-reply@secure-0ffice365.com",
+    "subject": "Your password will expire today - verify now",
+    "body": "Hello, your password expires today. Your access expires in 30 minutes. click here to verify your password using the secure link provided. http://secure-0ffice365.com/verify-account!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_12",
+    "sender_name": "IT Security Team",
+    "sender_email": "no-reply@bank0famerica-alert.com",
+    "subject": "Your mailbox is almost full, click to resolve",
+    "body": "Dear Valued Customer, Failure to respond will result in account closure. Click the link and confirm your social security number to avoid permanent closure. http://bank0famerica-alert.com/secure-login!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_43",
+    "sender_name": "Finance Team",
+    "sender_email": "finance@microsoft.com",
+    "subject": "Slack workspace update notes",
+    "body": "Rohit left a comment on your pull request: 'Looks good, just fix the lint warnings.'",
+    "label": "safe"
+  },
+  {
+    "id": "phish_66",
+    "sender_name": "HR Payroll Update",
+    "sender_email": "no-reply@secure-0ffice365.com",
+    "subject": "Your PayPal account has been limited",
+    "body": "Attention: your mailbox storage is full. enter your account details to continue to avoid losing access to your emails. http://secure-0ffice365.com/secure-login",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_5",
+    "sender_name": "GitHub",
+    "sender_email": "github@microsoft.com",
+    "subject": "Payslip for this month is available",
+    "body": "Hi Jordan, your leave request for next week has been approved by your manager. Link: https://microsoft.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "phish_80",
+    "sender_name": "Apple ID Support",
+    "sender_email": "no-reply@paypa1-secure.com",
+    "subject": "Invoice attached - payment overdue, verify now",
+    "body": "Attention: your mailbox storage is full. verify your bank account details to avoid losing access to your emails. http://paypa1-secure.com/verify-account!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_88",
+    "sender_name": "Office 365 Admin",
+    "sender_email": "no-reply@payroll-update-request.ru",
+    "subject": "Action Required: Verify your Office 365 account",
+    "body": "Dear Valued Customer, This is your final notice. Click the link and verify your bank account details to avoid permanent closure. http://payroll-update-request.ru/verify-account",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_67",
+    "sender_name": "PayPal Account Team",
+    "sender_email": "no-reply@payroll-update-request.ru",
+    "subject": "Action Required: Verify your Office 365 account",
+    "body": "Dear Customer, Failure to respond will result in account closure. verify your bank account details at the link below to keep your account active. http://payroll-update-request.ru/update-info",
+    "label": "phishing"
+  },
+  {
+    "id": "ambig_2",
+    "sender_name": "Finance Team",
+    "sender_email": "noreply@workday.com",
+    "subject": "Reminder: update your password before it expires",
+    "body": "Hi, as part of a routine security update, please confirm your login details before Friday. https://workday.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "phish_13",
+    "sender_name": "Helpdesk Support",
+    "sender_email": "no-reply@payroll-update-request.ru",
+    "subject": "HR Payroll Update - action needed",
+    "body": "Dear Valued Customer, Your access expires in 30 minutes. Click the link and confirm your social security number to avoid permanent closure. http://payroll-update-request.ru/confirm-id!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_19",
+    "sender_name": "IT Security Team",
+    "sender_email": "no-reply@g00gle-alerts.com",
+    "subject": "Security Alert: unusual sign-in activity detected",
+    "body": "Attention: your mailbox storage is full. verify your bank account details to avoid losing access to your emails. http://g00gle-alerts.com/update-info",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_80",
+    "sender_name": "Google Calendar",
+    "sender_email": "google@zoom.us",
+    "subject": "Welcome to the new onboarding portal",
+    "body": "Here are this week's Slack workspace updates and new channel guidelines.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_19",
+    "sender_name": "GitHub",
+    "sender_email": "github@github.com",
+    "subject": "Your Zoom recording is ready",
+    "body": "Hi Alex, your leave request for next week has been approved by your manager. Link: https://github.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "phish_27",
+    "sender_name": "Account Verification",
+    "sender_email": "no-reply@paypa1-secure.com",
+    "subject": "Action Required: Verify your Office 365 account",
+    "body": "Dear User, we detected unusual activity on your account. re-enter your password to unlock your account immediately to prevent suspension. http://paypa1-secure.com/verify-account!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_4",
+    "sender_name": "Slack",
+    "sender_email": "slack@workday.com",
+    "subject": "Your Zoom recording is ready",
+    "body": "You're invited to the Q3 planning meeting on Thursday at 3 PM. See the calendar link inside our internal portal. Link: https://workday.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "phish_21",
+    "sender_name": "Account Verification",
+    "sender_email": "no-reply@g00gle-alerts.com",
+    "subject": "HR Payroll Update - action needed",
+    "body": "Dear User, we detected unusual activity on your account. confirm your login credentials immediately to prevent suspension. http://g00gle-alerts.com/secure-login!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_10",
+    "sender_name": "Zoom",
+    "sender_email": "zoom@github.com",
+    "subject": "Your leave request has been approved",
+    "body": "Here are this week's Slack workspace updates and new channel guidelines.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_76",
+    "sender_name": "Account Verification",
+    "sender_email": "no-reply@paypa1-secure.com",
+    "subject": "Action Required: Verify your Office 365 account",
+    "body": "Hello, your password expires today. Immediate action required. provide your employee ID and password using the secure link provided. http://paypa1-secure.com/confirm-id!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_18",
+    "sender_name": "Finance Team",
+    "sender_email": "finance@atlassian.com",
+    "subject": "Calendar invite: 1:1 with your manager",
+    "body": "You're invited to the Q3 planning meeting on Thursday at 3 PM. See the calendar link inside our internal portal.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_0",
+    "sender_name": "Office 365 Admin",
+    "sender_email": "no-reply@hr-portal-update.xyz",
+    "subject": "Final Notice: account suspension pending",
+    "body": "Dear Valued Customer, Failure to respond will result in account closure. Click the link and confirm your login credentials to avoid permanent closure. http://hr-portal-update.xyz/secure-login",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_53",
+    "sender_name": "PayPal Account Team",
+    "sender_email": "no-reply@verify-account-now.top",
+    "subject": "URGENT: Your account has been locked",
+    "body": "Your invoice is overdue. Please provide your employee ID and password to release your account from hold. Immediate action required. http://verify-account-now.top/verify-account",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_38",
+    "sender_name": "Microsoft Support",
+    "sender_email": "no-reply@payroll-update-request.ru",
+    "subject": "HR Payroll Update - action needed",
+    "body": "Hello, your password expires today. Your access expires in 30 minutes. click here to verify your password using the secure link provided. http://payroll-update-request.ru/confirm-id",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_58",
+    "sender_name": "Manager - Raj Mehta",
+    "sender_email": "manager@google.com",
+    "subject": "New comment on your pull request",
+    "body": "Hi, this is a friendly reminder to submit your timesheet before end of day Friday.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_46",
+    "sender_name": "IT Security Team",
+    "sender_email": "no-reply@verify-account-now.top",
+    "subject": "Action Required: Verify your Office 365 account",
+    "body": "Hello, your password expires today. Failure to respond will result in account closure. confirm your social security number using the secure link provided. http://verify-account-now.top/confirm-id",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_7",
+    "sender_name": "PayPal Account Team",
+    "sender_email": "no-reply@it-helpdesk-support.info",
+    "subject": "Your PayPal account has been limited",
+    "body": "Dear User, we detected unusual activity on your account. verify your bank account details immediately to prevent suspension. http://it-helpdesk-support.info/secure-login",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_33",
+    "sender_name": "GitHub",
+    "sender_email": "github@company.com",
+    "subject": "Payslip for this month is available",
+    "body": "Your Zoom recording from yesterday's meeting is now available on the internal drive.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_44",
+    "sender_name": "Manager - Raj Mehta",
+    "sender_email": "manager@microsoft.com",
+    "subject": "Payslip for this month is available",
+    "body": "Here are this week's Slack workspace updates and new channel guidelines.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_86",
+    "sender_name": "Bank Security Alert",
+    "sender_email": "no-reply@login-secure.club",
+    "subject": "Your PayPal account has been limited",
+    "body": "Attention: your mailbox storage is full. re-enter your password to unlock your account to avoid losing access to your emails. http://login-secure.club/verify-account",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_37",
+    "sender_name": "Office 365 Admin",
+    "sender_email": "no-reply@hr-portal-update.xyz",
+    "subject": "Your PayPal account has been limited",
+    "body": "Dear User, we detected unusual activity on your account. click here to verify your password immediately to prevent suspension. http://hr-portal-update.xyz/secure-login",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_73",
+    "sender_name": "HR Payroll Update",
+    "sender_email": "no-reply@it-helpdesk-support.info",
+    "subject": "Final Notice: account suspension pending",
+    "body": "Your invoice is overdue. Please verify your bank account details to release your account from hold. Urgent: verify your identity today. http://it-helpdesk-support.info/verify-account",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_30",
+    "sender_name": "Workday Notifications",
+    "sender_email": "workday@atlassian.com",
+    "subject": "New comment on your pull request",
+    "body": "Reminder: 1:1 with your manager is scheduled for tomorrow at 10 AM. Link: https://atlassian.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "ambig_22",
+    "sender_name": "Finance Team",
+    "sender_email": "noreply@workday.com",
+    "subject": "Action needed: confirm your details for payroll",
+    "body": "Hi, as part of a routine security update, please confirm your login details before Friday. https://workday.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "safe_74",
+    "sender_name": "GitHub",
+    "sender_email": "github@github.com",
+    "subject": "Calendar invite: 1:1 with your manager",
+    "body": "Here are this week's Slack workspace updates and new channel guidelines. Link: https://github.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "safe_65",
+    "sender_name": "Priya (HR)",
+    "sender_email": "priya@microsoft.com",
+    "subject": "Slack workspace update notes",
+    "body": "Hi Meera, your payslip for this month has been generated and is available on the HR portal. Link: https://microsoft.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "safe_35",
+    "sender_name": "Slack",
+    "sender_email": "slack@github.com",
+    "subject": "Welcome to the new onboarding portal",
+    "body": "Ananya left a comment on your pull request: 'Looks good, just fix the lint warnings.'",
+    "label": "safe"
+  },
+  {
+    "id": "safe_54",
+    "sender_name": "Slack",
+    "sender_email": "slack@atlassian.com",
+    "subject": "Calendar invite: 1:1 with your manager",
+    "body": "Hi Meera, your payslip for this month has been generated and is available on the HR portal.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_77",
+    "sender_name": "Finance Team",
+    "sender_email": "finance@atlassian.com",
+    "subject": "Payslip for this month is available",
+    "body": "Rohit left a comment on your pull request: 'Looks good, just fix the lint warnings.' Link: https://atlassian.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "safe_52",
+    "sender_name": "Workday Notifications",
+    "sender_email": "workday@atlassian.com",
+    "subject": "Meeting invite: Q3 planning",
+    "body": "Hi team, attaching the notes from today's sync. Let me know if I missed anything. Link: https://atlassian.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "safe_1",
+    "sender_name": "Google Calendar",
+    "sender_email": "google@microsoft.com",
+    "subject": "Slack workspace update notes",
+    "body": "Hi Priya, your payslip for this month has been generated and is available on the HR portal. Link: https://microsoft.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "safe_14",
+    "sender_name": "Zoom",
+    "sender_email": "zoom@atlassian.com",
+    "subject": "Payslip for this month is available",
+    "body": "Welcome aboard! Here is your onboarding checklist for your first week. Link: https://atlassian.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "phish_63",
+    "sender_name": "HR Payroll Update",
+    "sender_email": "no-reply@payroll-update-request.ru",
+    "subject": "Final Notice: account suspension pending",
+    "body": "Dear Valued Customer, Failure to respond will result in account closure. Click the link and enter your account details to continue to avoid permanent closure. http://payroll-update-request.ru/update-info!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_11",
+    "sender_name": "Bank Security Alert",
+    "sender_email": "no-reply@paypa1-secure.com",
+    "subject": "IT Helpdesk: confirm your credentials to continue",
+    "body": "Dear Customer, Failure to respond will result in account closure. enter your account details to continue at the link below to keep your account active. http://paypa1-secure.com/confirm-id",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_56",
+    "sender_name": "Finance Team",
+    "sender_email": "finance@google.com",
+    "subject": "Weekly team sync notes",
+    "body": "You're invited to the Q3 planning meeting on Thursday at 3 PM. See the calendar link inside our internal portal. Link: https://google.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "safe_11",
+    "sender_name": "Slack",
+    "sender_email": "slack@atlassian.com",
+    "subject": "Payslip for this month is available",
+    "body": "You're invited to the Q3 planning meeting on Thursday at 3 PM. See the calendar link inside our internal portal.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_78",
+    "sender_name": "GitHub",
+    "sender_email": "github@workday.com",
+    "subject": "New comment on your pull request",
+    "body": "Hi, this is a friendly reminder to submit your timesheet before end of day Friday.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_44",
+    "sender_name": "Apple ID Support",
+    "sender_email": "no-reply@g00gle-alerts.com",
+    "subject": "IT Helpdesk: confirm your credentials to continue",
+    "body": "Dear Valued Customer, Immediate action required. Click the link and enter your account details to continue to avoid permanent closure. http://g00gle-alerts.com/confirm-id!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "ambig_5",
+    "sender_name": "Workday Notifications",
+    "sender_email": "updates@payroll-update-request.ru",
+    "subject": "Document shared with you",
+    "body": "Hello, a new document has been shared with you. https://payroll-update-request.ru/dashboard",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_61",
+    "sender_name": "PayPal Account Team",
+    "sender_email": "no-reply@secure-0ffice365.com",
+    "subject": "Invoice attached - payment overdue, verify now",
+    "body": "Dear Valued Customer, Failure to respond will result in account closure. Click the link and enter your account details to continue to avoid permanent closure. http://secure-0ffice365.com/update-info",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_83",
+    "sender_name": "Microsoft Support",
+    "sender_email": "no-reply@g00gle-alerts.com",
+    "subject": "Your password will expire today - verify now",
+    "body": "Dear Employee, HR requires you to provide your employee ID and password to process this month's payroll. Immediate action required. http://g00gle-alerts.com/secure-login!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_72",
+    "sender_name": "Workday Notifications",
+    "sender_email": "workday@slack.com",
+    "subject": "Payslip for this month is available",
+    "body": "Here are this week's Slack workspace updates and new channel guidelines.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_28",
+    "sender_name": "Priya (HR)",
+    "sender_email": "priya@slack.com",
+    "subject": "Slack workspace update notes",
+    "body": "Jordan left a comment on your pull request: 'Looks good, just fix the lint warnings.' Link: https://slack.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "phish_20",
+    "sender_name": "Bank Security Alert",
+    "sender_email": "no-reply@verify-account-now.top",
+    "subject": "IT Helpdesk: confirm your credentials to continue",
+    "body": "Security Notice: Your access expires in 30 minutes. Please enter your account details to continue to restore full access to your account. http://verify-account-now.top/update-info!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_88",
+    "sender_name": "Finance Team",
+    "sender_email": "finance@workday.com",
+    "subject": "Calendar invite: 1:1 with your manager",
+    "body": "Reminder: 1:1 with your manager is scheduled for tomorrow at 10 AM.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_29",
+    "sender_name": "Zoom",
+    "sender_email": "zoom@microsoft.com",
+    "subject": "Weekly team sync notes",
+    "body": "Your Zoom recording from yesterday's meeting is now available on the internal drive. Link: https://microsoft.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "phish_41",
+    "sender_name": "Account Verification",
+    "sender_email": "no-reply@g00gle-alerts.com",
+    "subject": "Final Notice: account suspension pending",
+    "body": "Dear Customer, Urgent: verify your identity today. confirm your social security number at the link below to keep your account active. http://g00gle-alerts.com/confirm-id!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_55",
+    "sender_name": "GitHub",
+    "sender_email": "github@google.com",
+    "subject": "Calendar invite: 1:1 with your manager",
+    "body": "Hi team, attaching the notes from today's sync. Let me know if I missed anything.",
+    "label": "safe"
+  },
+  {
+    "id": "ambig_9",
+    "sender_name": "GitHub",
+    "sender_email": "updates@payroll-update-request.ru",
+    "subject": "Document shared with you",
+    "body": "Hello, a new document has been shared with you. https://payroll-update-request.ru/dashboard",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_16",
+    "sender_name": "Bank Security Alert",
+    "sender_email": "no-reply@appleid-verify.net",
+    "subject": "Invoice attached - payment overdue, verify now",
+    "body": "Dear Employee, HR requires you to enter your account details to continue to process this month's payroll. Immediate action required. http://appleid-verify.net/update-info!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "ambig_8",
+    "sender_name": "Google Calendar",
+    "sender_email": "updates@appleid-verify.net",
+    "subject": "Your monthly statement is ready",
+    "body": "Hello, a new document has been shared with you. https://appleid-verify.net/dashboard",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_65",
+    "sender_name": "HR Payroll Update",
+    "sender_email": "no-reply@micros0ft-support.com",
+    "subject": "Final Notice: account suspension pending",
+    "body": "Dear Customer, Act now to avoid permanent deactivation. click here to verify your password at the link below to keep your account active. http://micros0ft-support.com/confirm-id",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_34",
+    "sender_name": "Apple ID Support",
+    "sender_email": "no-reply@payroll-update-request.ru",
+    "subject": "Your password will expire today - verify now",
+    "body": "Hello, your password expires today. Act now to avoid permanent deactivation. confirm your social security number using the secure link provided. http://payroll-update-request.ru/verify-account!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_18",
+    "sender_name": "Account Verification",
+    "sender_email": "no-reply@login-secure.club",
+    "subject": "Security Alert: unusual sign-in activity detected",
+    "body": "Dear Valued Customer, Failure to respond will result in account closure. Click the link and re-enter your password to unlock your account to avoid permanent closure. http://login-secure.club/confirm-id",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_79",
+    "sender_name": "Apple ID Support",
+    "sender_email": "no-reply@hr-portal-update.xyz",
+    "subject": "Action Required: Verify your Office 365 account",
+    "body": "Your invoice is overdue. Please enter your account details to continue to release your account from hold. Failure to respond will result in account closure. http://hr-portal-update.xyz/verify-account!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_23",
+    "sender_name": "Helpdesk Support",
+    "sender_email": "no-reply@it-helpdesk-support.info",
+    "subject": "HR Payroll Update - action needed",
+    "body": "Attention: your mailbox storage is full. confirm your social security number to avoid losing access to your emails. http://it-helpdesk-support.info/update-info!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_69",
+    "sender_name": "Workday Notifications",
+    "sender_email": "workday@github.com",
+    "subject": "Payslip for this month is available",
+    "body": "Your Zoom recording from yesterday's meeting is now available on the internal drive.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_20",
+    "sender_name": "Atlassian",
+    "sender_email": "atlassian@company.com",
+    "subject": "Meeting invite: Q3 planning",
+    "body": "Reminder: 1:1 with your manager is scheduled for tomorrow at 10 AM.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_82",
+    "sender_name": "Helpdesk Support",
+    "sender_email": "no-reply@secure-0ffice365.com",
+    "subject": "Your PayPal account has been limited",
+    "body": "Attention: your mailbox storage is full. confirm your social security number to avoid losing access to your emails. http://secure-0ffice365.com/update-info",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_12",
+    "sender_name": "IT Support Desk",
+    "sender_email": "it@company.com",
+    "subject": "New comment on your pull request",
+    "body": "Hi team, attaching the notes from today's sync. Let me know if I missed anything.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_68",
+    "sender_name": "Microsoft Support",
+    "sender_email": "no-reply@it-helpdesk-support.info",
+    "subject": "Your mailbox is almost full, click to resolve",
+    "body": "Dear User, we detected unusual activity on your account. confirm your login credentials immediately to prevent suspension. http://it-helpdesk-support.info/update-info!!!",
+    "label": "phishing"
+  },
+  {
+    "id": "ambig_13",
+    "sender_name": "Workday Notifications",
+    "sender_email": "noreply@google.com",
+    "subject": "Action needed: confirm your details for payroll",
+    "body": "Hi, as part of a routine security update, please confirm your login details before Friday. https://google.com/dashboard",
+    "label": "safe"
+  },
+  {
+    "id": "safe_40",
+    "sender_name": "Slack",
+    "sender_email": "slack@slack.com",
+    "subject": "Meeting invite: Q3 planning",
+    "body": "Kabir left a comment on your pull request: 'Looks good, just fix the lint warnings.'",
+    "label": "safe"
+  },
+  {
+    "id": "safe_39",
+    "sender_name": "Atlassian",
+    "sender_email": "atlassian@github.com",
+    "subject": "Payslip for this month is available",
+    "body": "Reminder: 1:1 with your manager is scheduled for tomorrow at 10 AM.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_13",
+    "sender_name": "Workday Notifications",
+    "sender_email": "workday@microsoft.com",
+    "subject": "New comment on your pull request",
+    "body": "Here are this week's Slack workspace updates and new channel guidelines.",
+    "label": "safe"
+  },
+  {
+    "id": "safe_21",
+    "sender_name": "Workday Notifications",
+    "sender_email": "workday@slack.com",
+    "subject": "Reminder: submit your timesheet by Friday",
+    "body": "Your Zoom recording from yesterday's meeting is now available on the internal drive.",
+    "label": "safe"
+  },
+  {
+    "id": "phish_62",
+    "sender_name": "Account Verification",
+    "sender_email": "no-reply@g00gle-alerts.com",
+    "subject": "IT Helpdesk: confirm your credentials to continue",
+    "body": "Dear Valued Customer, Immediate action required. Click the link and click here to verify your password to avoid permanent closure. http://g00gle-alerts.com/update-info",
+    "label": "phishing"
+  },
+  {
+    "id": "phish_55",
+    "sender_name": "PayPal Account Team",
+    "sender_email": "no-reply@paypa1-secure.com",
+    "subject": "Invoice attached - payment overdue, verify now",
+    "body": "Your invoice is overdue. Please enter your account details to continue to release your account from hold. Urgent: verify your identity today. http://paypa1-secure.com/confirm-id",
+    "label": "phishing"
+  },
+  {
+    "id": "ambig_18",
+    "sender_name": "IT Support Desk",
+    "sender_email": "updates@g00gle-alerts.com",
+    "subject": "Document shared with you",
+    "body": "Hello, a new document has been shared with you. https://g00gle-alerts.com/dashboard",
+    "label": "phishing"
+  },
+  {
+    "id": "safe_83",
+    "sender_name": "Zoom",
+    "sender_email": "zoom@github.com",
+    "subject": "Your Zoom recording is ready",
+    "body": "Your Zoom recording from yesterday's meeting is now available on the internal drive.",
+    "label": "safe"
+  },
+  {
+    "id": "ambig_4",
+    "sender_name": "IT Support Desk",
+    "sender_email": "updates@paypa1-secure.com",
+    "subject": "Document shared with you",
+    "body": "Hello, a new document has been shared with you. https://paypa1-secure.com/dashboard",
+    "label": "phishing"
+  }
+]

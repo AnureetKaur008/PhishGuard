@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Test an Email — PhishGuard</title>
+<link rel="icon" type="image/png" href="assets/logo-icon.png" />
+<link rel="stylesheet" href="style.css" />
+<style>
+  .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+  .form-grid.full { grid-template-columns: 1fr; }
+  .field label { display:block; font-size:12px; font-weight:700; color:var(--navy); margin-bottom:6px; }
+  .field input, .field textarea {
+    width:100%; padding:11px 13px; border:1.5px solid var(--border); border-radius:10px;
+    font-size:13.5px; color:var(--ink); font-family:inherit; outline:none;
+  }
+  .field input:focus, .field textarea:focus { border-color: var(--electric); }
+  .field textarea { resize: vertical; min-height: 110px; }
+  .example-row { display:flex; gap:10px; margin-bottom: 20px; flex-wrap: wrap; }
+  .example-btn {
+    background: var(--lightbg); border:1px solid var(--border); color:var(--navy);
+    font-size:12px; font-weight:700; padding:8px 14px; border-radius:999px; cursor:pointer;
+  }
+  .example-btn:hover { border-color: var(--electric); }
+  .analyze-btn {
+    background: linear-gradient(135deg, var(--electric), #6E5CFF); color:white; border:none;
+    font-weight:700; font-size:14px; padding:13px 30px; border-radius:10px; cursor:pointer;
+  }
+  .analyze-btn:hover { opacity: 0.92; }
+  .result-panel { margin-top: 26px; display:none; }
+  .result-panel.show { display:block; }
+  .result-header { border-radius: 14px 14px 0 0; padding: 16px 20px; color:white; }
+  .result-header.high { background: var(--coral); }
+  .result-header.medium { background: var(--amber); color: var(--navy); }
+  .result-header.low { background: var(--mint); }
+  .result-header .tier { font-weight:800; font-size:15px; }
+  .result-header .score { font-size:12.5px; opacity:0.9; margin-top:2px; }
+  .result-body { background: white; border: 1px solid var(--border); border-top:none;
+    border-radius: 0 0 14px 14px; padding: 18px 20px; }
+  .reasons-title { font-size:11.5px; text-transform:uppercase; letter-spacing:0.5px; color:var(--grey); font-weight:700; margin-bottom:8px; }
+  .reason-item { display:flex; gap:8px; padding:7px 0; border-bottom:1px solid var(--border); font-size:13.3px; }
+  .reason-item:last-child { border-bottom:none; }
+  .reason-dot { color: var(--coral); font-weight:900; }
+  .loading-note { font-size: 12.5px; color: var(--grey); margin-top: 10px; display:none; }
+  .loading-note.show { display:block; }
+</style>
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="brand">
+      <img src="assets/logo-icon.png" alt="PhishGuard" class="brand-badge brand-badge-img" />
+      <div>
+        <div class="brand-title">PhishGuard</div>
+        <div class="brand-sub">AI-Assisted Phishing Triage · Problem #19</div>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <span id="live-clock"></span>
+    </div>
+  </header>
+
+  <div class="app-body">
+    <nav class="sidebar">
+      <div class="sidebar-section-label">Console</div>
+      <a href="/dashboard" class="nav-link"><span class="nav-icon">&#9635;</span> Overview</a>
+      <a href="/test" class="nav-link active"><span class="nav-icon">&#9993;</span> Test an Email</a>
+      <a href="/analytics" class="nav-link"><span class="nav-icon">&#128202;</span> Analytics</a>
+      <a href="/settings" class="nav-link"><span class="nav-icon">&#9881;</span> Settings</a>
+      <a href="/activity" class="nav-link"><span class="nav-icon">&#128203;</span> Activity Log</a>
+
+      <div class="sidebar-foot">
+        <div class="sidebar-analyst">Signed in as<br/><b id="sidebar-analyst-name">analyst</b></div>
+        <button id="logout-btn" class="logout-btn logout-btn-block">Log out</button>
+      </div>
+    </nav>
+
+    <main class="content-area">
+      <div class="page">
+
+        <section class="hero">
+          <div class="hero-text">
+            <h1>Test any email, live.</h1>
+            <p>Paste in a real (or made-up) email and watch PhishGuard score it,
+               explain the red flags, and decide in real time — the same model
+               that powers the Overview queue.</p>
+          </div>
+        </section>
+
+        <section class="board">
+          <div class="board-header">
+            <h2>Analyze an Email</h2>
+          </div>
+
+          <div class="example-row">
+            <button class="example-btn" id="example-phish">Try a phishing example</button>
+            <button class="example-btn" id="example-safe">Try a safe example</button>
+            <button class="example-btn" id="example-clear">Clear form</button>
+          </div>
+
+          <div class="form-grid">
+            <div class="field">
+              <label for="f-sender-name">Sender display name</label>
+              <input type="text" id="f-sender-name" placeholder="e.g. IT Support Desk" />
+            </div>
+            <div class="field">
+              <label for="f-sender-email">Sender email address</label>
+              <input type="text" id="f-sender-email" placeholder="e.g. no-reply@company.com" />
+            </div>
+          </div>
+
+          <div class="form-grid full">
+            <div class="field">
+              <label for="f-subject">Subject</label>
+              <input type="text" id="f-subject" placeholder="Email subject line" />
+            </div>
+          </div>
+
+          <div class="form-grid full">
+            <div class="field">
+              <label for="f-body">Email body</label>
+              <textarea id="f-body" placeholder="Paste the email content here..."></textarea>
+            </div>
+          </div>
+
+          <button class="analyze-btn" id="analyze-btn">Analyze Email</button>
+          <div class="loading-note" id="loading-note">Scoring email…</div>
+
+          <div class="result-panel" id="result-panel">
+            <div class="result-header" id="result-header">
+              <div class="score-ring-wrap">
+                <div id="result-ring"></div>
+                <div>
+                  <div class="tier" id="result-tier">—</div>
+                  <div class="score" id="result-score">—</div>
+                </div>
+              </div>
+            </div>
+            <div class="result-body">
+              <div class="reasons-title">Why PhishGuard flagged this</div>
+              <div id="result-reasons"></div>
+            </div>
+          </div>
+
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <script src="auth.js"></script>
+  <script src="test.js"></script>
+</body>
+</html>
