@@ -43,12 +43,22 @@ const SIMULATION_POOL = [
 ];
 
 async function loadInbox() {
-  const res = await fetch("/api/inbox");
-  const data = await res.json();
-  ALL_EMAILS = data.emails;
-  renderMetrics(data.model_metrics);
-  renderStats(data.stats);
-  renderQueue();
+  try {
+    const res = await fetch("/api/inbox");
+    if (!res.ok) {
+      throw new Error(`Server returned ${res.status}`);
+    }
+    const data = await res.json();
+    ALL_EMAILS = data.emails;
+    renderMetrics(data.model_metrics);
+    renderStats(data.stats);
+    renderQueue();
+  } catch (err) {
+    console.error("Failed to load inbox:", err);
+    document.getElementById("queue").innerHTML =
+      `<div class="empty-state">Couldn't load the email queue (${err.message}).
+       Check that the server is running correctly and try refreshing.</div>`;
+  }
 }
 
 function recomputeStats() {
