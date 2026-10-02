@@ -16,11 +16,15 @@ These thresholds are intentionally easy to tune — see HIGH_THRESHOLD /
 MEDIUM_THRESHOLD below.
 """
 
+import os
 import joblib
 from features import extract, to_vector
 
 HIGH_THRESHOLD = 80
 MEDIUM_THRESHOLD = 50
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "model.pkl")
 
 _model = None
 
@@ -28,7 +32,7 @@ _model = None
 def _get_model():
     global _model
     if _model is None:
-        _model = joblib.load("model.pkl")
+        _model = joblib.load(MODEL_PATH)
     return _model
 
 
