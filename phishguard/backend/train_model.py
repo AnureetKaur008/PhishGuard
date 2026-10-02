@@ -9,6 +9,7 @@ Run:
     python train_model.py
 """
 
+import os
 import json
 import joblib
 from sklearn.ensemble import RandomForestClassifier
@@ -17,8 +18,11 @@ from sklearn.metrics import precision_score, recall_score, f1_score, confusion_m
 
 from features import extract, to_vector, FEATURE_ORDER
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-def load_dataset(path="data/emails.json"):
+
+def load_dataset(path=None):
+    path = path or os.path.join(BASE_DIR, "data", "emails.json")
     with open(path) as f:
         rows = json.load(f)
     X, y = [], []
@@ -57,7 +61,7 @@ def main():
                              key=lambda x: -x[1]):
         print(f"  {name:30s} {imp:.3f}")
 
-    joblib.dump(clf, "model.pkl")
+    joblib.dump(clf, os.path.join(BASE_DIR, "model.pkl"))
     metrics = {
         "precision": round(precision, 3),
         "recall": round(recall, 3),
@@ -65,7 +69,7 @@ def main():
         "false_positive_rate": round(false_positive_rate, 3),
         "test_size": len(y_test),
     }
-    with open("metrics.json", "w") as f:
+    with open(os.path.join(BASE_DIR, "metrics.json"), "w") as f:
         json.dump(metrics, f, indent=2)
     print("\nSaved model.pkl and metrics.json")
 
